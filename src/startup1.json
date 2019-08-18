@@ -2,12 +2,11 @@
   {
     "request":
     {
-      "uri":"/demo"
-
+      "uri":"/insert"
     },
     "response" :
     {
-      "text" : "这是第一个 Moco框架"
+      "text" : "tgis Moco start"
     }
   }
 ]

@@ -1,0 +1,28 @@
+[
+  {
+    "description":"moniwucanshu  get ",
+    "request": {
+      "uri": "/get",
+      "method": "get"
+
+    },
+    "response": {
+      "text": " get "
+    }
+    },
+  {
+    "description": "moniyoucan  get",
+    "request": {
+      "uri": "/get1",
+      "method": "get",
+      "queries": {
+        "name": "zhangsan",
+        "age": "20"
+      }
+      },
+      "response": {
+        "text": "!!!!!!!!"
+      }
+    }
+
+]
