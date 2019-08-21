@@ -1,2 +1,6 @@
 java -jar moco-runner-0.12.0-standalone.jar http -p 8888 -c startup1.json
 java -jar moco-runner-0.12.0-standalone.jar http -p 8899 -c startupGet.json
+java -jar moco-runner-0.12.0-standalone.jar http -p 8877 -c startupPost.json
+java -jar moco-runner-0.12.0-standalone.jar http -p 8866 -c cookies.json
+java -jar moco-runner-0.12.0-standalone.jar http -p 8855 -c headers.json
+java -jar moco-runner-0.12.0-standalone.jar http -p 8844 -c redirect.json

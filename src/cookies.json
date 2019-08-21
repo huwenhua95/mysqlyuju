@@ -1,0 +1,38 @@
+[
+  {
+    "description":"cookies get",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"cookies get"
+    }
+  },
+  {
+    "description":"cookies post",
+    "request":{
+      "uri":"/post/with/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"zhangsan",
+        "age":"21"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "zhangsan":"success",
+        "status":"1"
+
+      }
+
+    }
+  }
+]

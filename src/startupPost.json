@@ -1,0 +1,26 @@
+[
+  {
+    "description":"post qingqiu",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"post qingqiu"
+    }
+  },
+  {
+    "description":"dai can post",
+    "request":{
+      "uri":"/post",
+      "method":"post",
+      "queries":{
+        "name":"zhangsan",
+        "sex":"man"
+      }
+    },
+    "response":{
+      "text":"dai can post"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "description":"chong ding xiang dai du",
+    "request":{
+      "uri":"/redirect"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description":"chong ding xiang ziji wangye",
+    "request":{
+      "uri":"/redirect/topath"
+    },
+    "redirectTo":"redirect/new"
+  },
+  {
+    "description":"bei chdingxdao qingqiu"
+    "request":{
+      "uri":"/redirect/new"
+    },
+    "response":{
+      "text":"chdx success"
+    }
+  }
+]
