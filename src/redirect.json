@@ -14,7 +14,7 @@
     "redirectTo":"redirect/new"
   },
   {
-    "description":"bei chdingxdao qingqiu"
+    "description":"bei chdingxdao qingqiu",
     "request":{
       "uri":"/redirect/new"
     },
