@@ -2,6 +2,21 @@
   {
     "description":"cookies get",
     "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true",
+        "status":"1000"
+      },
+     "text":"huode cookies"
+    }
+
+  },
+  {
+    "description":"cookies get",
+    "request":{
       "uri":"/get/with/cookies",
       "method":"get",
       "cookies":{
