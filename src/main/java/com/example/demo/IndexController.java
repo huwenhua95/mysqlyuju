@@ -65,10 +65,6 @@ public class IndexController {
                 list.add(p1);
             }
 
-        /*   Person p=new Person();
-            p.setId(id);
-            list.add(p);
-*/
             conn.close();
 
         } catch (Exception e) {
